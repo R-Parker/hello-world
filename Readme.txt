@@ -17,5 +17,7 @@ git config --global user.name "<USERNAME>": name recorded with commits
 git config --global user.email "<EMAIL>": email recorded with commits
 git init: creates repository in selected folder
 git status: indicates the status of commits for the current folder
-git add <FILENAME>: stages the file for the next commits
+git add <FILENAME>: stages the file for the next commit
+git add .: stages all files in directory for the next commit
 git commit -m "<DESCRIPTION OF CHANGES MADE>"
+git diff: show differences since last commit
